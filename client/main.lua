@@ -133,8 +133,8 @@ function ChopCar()
                 if Config.EnableAlertChat then
                     TriggerServerEvent("announce", tablica)
                 end
+		choping = true			
                 StartChop()
-                choping = true
             else
                 notify(_U('not_in_car'))
             end
@@ -297,6 +297,7 @@ function StartChop()
     local vehicle =  GetVehiclePedIsIn( ped, false )
     DeleteVehicle(vehicle)
     TimeToChop = Config.CooldownMinutes
+    choping = false
     konec()
 end
 
