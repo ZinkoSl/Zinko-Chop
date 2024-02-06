@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+.container {
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    left: 20%;
+    top: 20%;
+}
+
+.shop {
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    height: 680px;
+    width: 1150px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+
+
+
+
+
+.item img {
+    max-width: 159px;
+    max-height: 120px;
+    min-height: 120px;
+    min-width: 159px;
+    margin-left: 2%;
+    margin-top: 1%;
+    display: inline-block;
+    position: absolute;
+}
+
+.shop p {
+    margin-top: -5.5%;
+    margin-left: -2%;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.item {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 210px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #5F6060;
+    overflow: hidden;
+}
+
+
+
+.shop {
+    overflow-y: auto;
+}
+
+.item button {
+    margin-top: 210px;
+    margin-left: 14px;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 200;
+    background-color: #FFF;
+}
+
+.square p {
+    text-align: left;
+    position: relative;
+    margin-left: 10px;
+    top: 10px;
+}
+
+.items {
+    margin-left: 80px;
+    margin-top: 145px;
+}
+
+.item .square {
+    height: 100px;
+    margin-top: 160px;
+    border-radius: 0px 0px 9px 9px;
+    width: 210px;
+    background: rgba(128, 128, 128, 0.10);
+    backdrop-filter: blur(2px);
+}
+.label p {
+    margin-top: -35%;
+    margin-left: 29%;
+    line-height: 4.5;
+    text-align: left;
+    color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+}
+
+@-webkit-keyframes Fade {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-moz-keyframes Fade {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes Fade { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.shop .Title1 {
+    color: white;
+    position: absolute;
+    left: 90px;
+    top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.shop .Title2 {
+    color: white;
+    position: absolute;
+    left: 90px;
+    top: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.shop .circle {
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 40px;
+    stroke-width: 2px;
+    stroke: #FFF;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.shop .circle .oznaka {
+    color: #FFF;
+    padding-left: 12px;
+    padding-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.item .square .input {
+    margin-left: 140px;
+    background: transparent;
+    border: 2px solid #5F6060;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+position: relative;
+top: -40px;
+    width: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
