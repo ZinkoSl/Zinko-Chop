@@ -415,7 +415,6 @@ Citizen.CreateThread(function()
         if TimeToChop >= 1 then
             Citizen.Wait(Config.CountDownTime)
             TimeToChop = TimeToChop - 1
-            print(TimeToChop)
         end
     end
 end)
